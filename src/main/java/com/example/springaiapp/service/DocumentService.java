@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 
 import jakarta.annotation.PostConstruct;
 
-@Service
+//@Service
 public class DocumentService {
  
     private static final Logger logger = LoggerFactory.getLogger(DocumentService.class);
