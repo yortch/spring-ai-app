@@ -5,7 +5,7 @@ spring.ai.azure.openai.chat.model=gpt-4o
 spring.ai.azure.openai.embedding.model=text-embedding-ada-002
 
 spring.datasource.url=jdbc:postgresql://${PGHOST}/postgres?sslmode=require
-spring.datasource.username=cliuser
+spring.datasource.username=azureuser
 spring.datasource.azure.passwordless-enabled=true
 spring.ai.vectorstore.pgvector.initialize-schema=true
 spring.ai.vectorstore.pgvector.schema-name=postgres
